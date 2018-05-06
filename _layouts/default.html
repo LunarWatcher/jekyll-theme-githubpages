@@ -6,6 +6,7 @@
             {% elsif page.title.size > 0 %}{{ page.title }} | {{ site.title }}
             {$ else }{{ page.name }}
         </title>
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     </head>
     <header>
         <p>This is the header</p>
